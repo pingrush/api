@@ -1,5 +1,5 @@
 {
-  "connection": false,
+  "connection": true,
   "webSlowdown": false,
   "overallStatus": "operational",
   "generalStatus": {
