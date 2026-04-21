@@ -1,0 +1,71 @@
+{
+  "connection": true,
+  "webSlowdown": false,
+  "overallStatus": "operational",
+  "generalStatus": {
+    "status": "operational",
+    "message": "All Systems running Operational's."
+  },
+  "services": [
+    {
+      "id": "auth",
+      "name": "Authentication",
+      "status": "operational"
+    },
+    {
+      "id": "api",
+      "name": "API Services",
+      "status": "operational"
+    },
+    {
+      "id": "web",
+      "name": "Web Services",
+      "status": "operational"
+    },
+    {
+      "id": "app",
+      "name": "App Services",
+      "status": "operational"
+    },
+    {
+      "id": "download",
+      "name": "Download Services",
+      "status": "operational"
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "title": "Suspected DDoS Attack",
+      "status": "resolved",
+      "date": "2026-04-06",
+      "services": [
+        "Authentication",
+        "API Services",
+        "Web Services"
+      ],
+      "updates": [
+        {
+          "time": "10:00 UTC",
+          "message": "Our monitoring systems previously detected abnormal traffic patterns consistent with a DDoS attack. The issue has now been contained, and all affected services have been restored to a stable and fully operational state."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Connection Issues After Recent Update",
+      "status": "resolved",
+      "date": "2026-01-26",
+      "services": [
+        "Download Servers",
+        "API Services"
+      ],
+      "updates": [
+        {
+          "time": "Time Unknown",
+          "message": "The connection issues caused by the mistakenly released update have been fully resolved. All systems are now stable and operating normally. This issue was entirely caused by the Pinrush team; no third parties or service providers were involved."
+        }
+      ]
+    }
+  ]
+}
