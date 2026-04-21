@@ -15,7 +15,7 @@
     {
       "id": "api",
       "name": "API Services",
-      "status": "degraded"
+      "status": "operational"
     },
     {
       "id": "web",
