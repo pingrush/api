@@ -1,10 +1,10 @@
 {
   "connection": true,
   "webSlowdown": true,
-  "overallStatus": "partial",
+  "overallStatus": "operational",
   "generalStatus": {
-    "status": "partial",
-    "message": "We are currently investigating multiple issues affecting several services."
+    "status": "operational",
+    "message": "All Systems Operational's."
   },
   "services": [
     {
@@ -15,7 +15,7 @@
     {
       "id": "api",
       "name": "API Services",
-      "status": "partial"
+      "status": "operational"
     },
     {
       "id": "web",
@@ -36,7 +36,7 @@
   "incidents": [{
       "id": 1,
       "title": "Multiple Service Disruptions",
-      "status": "investigating",
+      "status": "monitoring",
       "date": "2026-04-22",
       "services": [
         "Authentication",
