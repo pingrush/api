@@ -1,41 +1,59 @@
 {
-  "connection": true,
-  "webSlowdown": false,
-  "overallStatus": "operational",
+  "connection": false,
+  "webSlowdown": true,
+  "overallStatus": "outage",
   "generalStatus": {
-    "status": "operational",
-    "message": "All Systems running Operational's."
+    "status": "outage",
+    "message": "We are currently investigating multiple issues affecting several services."
   },
   "services": [
     {
       "id": "auth",
       "name": "Authentication",
-      "status": "operational"
+      "status": "partial"
     },
     {
       "id": "api",
       "name": "API Services",
-      "status": "operational"
+      "status": "partial"
     },
     {
       "id": "web",
       "name": "Web Services",
-      "status": "operational"
+      "status": "degraded"
     },
     {
       "id": "app",
       "name": "App Services",
-      "status": "operational"
+      "status": "outage"
     },
     {
       "id": "download",
       "name": "Download Services",
-      "status": "operational"
+      "status": "partial"
     }
   ],
-  "incidents": [
-    {
+  "incidents": [{
       "id": 1,
+      "title": "Multiple Service Disruptions",
+      "status": "investigating",
+      "date": "2026-04-22",
+      "services": [
+        "Authentication",
+        "API Services",
+        "Web Services",
+        "App Services",
+        "Download Services"
+      ],
+      "updates": [
+        {
+          "time": "19:00 UTC",
+          "message": "We are currently investigating widespread issues affecting multiple services. App Services are currently unavailable, Web Services are experiencing significant performance degradation, and Authentication, API, and Download Services are partially impacted."
+        }
+      ]
+    },
+    {
+      "id": 2,
       "title": "Suspected DDoS Attack",
       "status": "resolved",
       "date": "2026-04-06",
@@ -52,7 +70,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Connection Issues After Recent Update",
       "status": "resolved",
       "date": "2026-01-26",
