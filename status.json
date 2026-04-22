@@ -1,11 +1,5 @@
 {
   "connection": true,
-  "connectionSlowdown": true,
-  "connectionSlowdownDelaySeconds": 90,
-  "appConnectionStatus": {
-    "level": "warning",
-    "message": "90 saniye sonra bağlanacak."
-  },
   "webSlowdown": false,
   "overallStatus": "operational",
   "generalStatus": {
