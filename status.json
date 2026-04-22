@@ -10,17 +10,17 @@
     {
       "id": "auth",
       "name": "Authentication",
-      "status": "outage"
+      "status": "operational"
     },
     {
       "id": "api",
       "name": "API Services",
-      "status": "outage"
+      "status": "partial"
     },
     {
       "id": "web",
       "name": "Web Services",
-      "status": "degraded"
+      "status": "operational"
     },
     {
       "id": "app",
@@ -30,7 +30,7 @@
     {
       "id": "download",
       "name": "Download Services",
-      "status": "outage"
+      "status": "operational"
     }
   ],
   "incidents": [{
