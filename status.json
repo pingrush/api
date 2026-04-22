@@ -15,7 +15,7 @@
     {
       "id": "api",
       "name": "API Services",
-      "status": "partial"
+      "status": "outage"
     },
     {
       "id": "web",
@@ -25,7 +25,7 @@
     {
       "id": "app",
       "name": "App Services",
-      "status": "outage"
+      "status": "partial"
     },
     {
       "id": "download",
