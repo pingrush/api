@@ -1,9 +1,9 @@
 {
   "connection": true,
   "webSlowdown": true,
-  "overallStatus": "outage",
+  "overallStatus": "partial",
   "generalStatus": {
-    "status": "outage",
+    "status": "partial",
     "message": "We are currently investigating multiple issues affecting several services."
   },
   "services": [
