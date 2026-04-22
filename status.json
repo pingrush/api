@@ -10,7 +10,7 @@
     {
       "id": "auth",
       "name": "Authentication",
-      "status": "partial"
+      "status": "outage"
     },
     {
       "id": "api",
@@ -30,7 +30,7 @@
     {
       "id": "download",
       "name": "Download Services",
-      "status": "partial"
+      "status": "outage"
     }
   ],
   "incidents": [{
