@@ -4,7 +4,7 @@
   "overallStatus": "operational",
   "generalStatus": {
     "status": "operational",
-    "message": "All Systems Operational's."
+    "message": "All Systems Operational"
   },
   "services": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "app",
       "name": "App Services",
-      "status": "partial"
+      "status": "operational"
     },
     {
       "id": "download",
@@ -36,7 +36,7 @@
   "incidents": [{
       "id": 1,
       "title": "Multiple Service Disruptions",
-      "status": "monitoring",
+      "status": "resolved",
       "date": "2026-04-22",
       "services": [
         "Authentication",
@@ -48,7 +48,7 @@
       "updates": [
         {
           "time": "19:00 UTC",
-          "message": "We are currently investigating widespread issues affecting multiple services. App Services are currently unavailable, Web Services are experiencing significant performance degradation, and Authentication, API, and Download Services are partially impacted."
+          "message": "All previously reported issues have been fully resolved. The disruptions were caused by an outage at our primary infrastructure partner, Vercel, which has now been successfully addressed. All services, including App, Web, Authentication, API, and Download Services, are operating normally. We will continue to monitor the systems to ensure ongoing stability."
         }
       ]
     },
