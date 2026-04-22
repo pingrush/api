@@ -1,6 +1,6 @@
 {
   "connection": false,
-  "connectionSlowdown": false,
+  "connectionSlowdown": true,
   "connectionSlowdownDelaySeconds": 90,
   "appConnectionStatus": {
     "level": "warning",
