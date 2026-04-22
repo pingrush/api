@@ -1,5 +1,5 @@
 {
-  "connection": true,
+  "connection": false,
   "connectionSlowdown": false,
   "connectionSlowdownDelaySeconds": 90,
   "appConnectionStatus": {
