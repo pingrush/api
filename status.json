@@ -1,10 +1,10 @@
 {
-  "connection": false,
+  "connection": true,
   "webSlowdown": true,
-  "overallStatus": "outage",
+  "overallStatus": "partial",
   "generalStatus": {
-    "status": "outage",
-    "message": "App Services Outage"
+    "status": "partial",
+    "message": "App Services partial"
   },
   "services": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "app",
       "name": "App Services",
-      "status": "outage"
+      "status": "partial"
     },
     {
       "id": "download",
@@ -37,7 +37,7 @@
     {
       "id": 1,
       "title": "App Services Outage",
-      "status": "investigating",
+      "status": "monitoring",
       "date": "2026-05-02",
       "services": [
         "App Services"
@@ -45,7 +45,7 @@
       "updates": [
         {
           "time": "19:00 UTC",
-          "message": "We are currently investigating a major outage affecting App Services. Users may experience connection failures, crashes, or inability to access the application. Our pingrush team is actively working to identify the root cause and restore full functionality as quickly as possible."
+          "message": "Most of the problems experienced in App Services have been resolved and the systems have started to recover. At this time, some users may still experience intermittent performance or connection issues. Our team is monitoring the services closely and the monitoring process will continue until full stability is achieved."
         }
       ]
     },
