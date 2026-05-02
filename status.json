@@ -1,10 +1,10 @@
 {
   "connection": true,
   "webSlowdown": true,
-  "overallStatus": "partial",
+  "overallStatus": "operational",
   "generalStatus": {
-    "status": "partial",
-    "message": "App Services partial"
+    "status": "operational",
+    "message": "All Systems Operational"
   },
   "services": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "app",
       "name": "App Services",
-      "status": "partial"
+      "status": "operational"
     },
     {
       "id": "download",
@@ -37,7 +37,7 @@
     {
       "id": 1,
       "title": "App Services Outage",
-      "status": "monitoring",
+      "status": "resolved",
       "date": "2026-05-02",
       "services": [
         "App Services"
@@ -45,7 +45,7 @@
       "updates": [
         {
           "time": "19:00 UTC",
-          "message": "Most of the problems experienced in App Services have been resolved and the systems have started to recover. At this time, some users may still experience intermittent performance or connection issues. Our team is monitoring the services closely and the monitoring process will continue until full stability is achieved."
+          "message": "The problem experienced on App Services has been completely resolved. All systems are now fully operational again. No additional problems were detected during our monitoring process and all services are operating stably."
         }
       ]
     },
