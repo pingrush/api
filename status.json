@@ -1,9 +1,9 @@
 {
-  "connection": false,
+  "connection": true,
   "webSlowdown": true,
-  "overallStatus": "outage",
+  "overallStatus": "operational",
   "generalStatus": {
-    "status": "outage",
+    "status": "operational",
     "message": "All Systems Operational"
   },
   "services": [
@@ -15,29 +15,29 @@
     {
       "id": "api",
       "name": "API Services",
-      "status": "redirecting"
+      "status": "operational"
     },
     {
       "id": "web",
       "name": "Web Services",
-      "status": "redirecting"
+      "status": "operational"
     },
     {
       "id": "app",
       "name": "App Services",
-      "status": "outage"
+      "status": "operational"
     },
     {
       "id": "download",
       "name": "Download Services",
-      "status": "redirecting"
+      "status": "operational"
     }
   ],
   "incidents": [
     {
       "id": 1,
       "title": "App Services Outage",
-      "status": "ongoing",
+      "status": "resolved",
       "date": "2026-06-24",
       "services": [
         "App Services"
@@ -45,7 +45,7 @@
       "updates": [
         {
           "time": "21:30 UTC",
-          "message": "The issue affecting App Services is still under investigation and has not yet been fully resolved. Our team continues to work on identifying the root cause and implementing a permanent fix. Some services may still experience disruptions or degraded performance. We are actively monitoring the situation and will provide further updates as more information becomes available."
+          "message": "The problem experienced on App Services has been completely resolved. All systems are now fully operational again. No additional problems were detected during our monitoring process and all services are operating stably."
         }
       ]
     },
