@@ -1,9 +1,9 @@
 {
-  "connection": false,
+  "connection": true,
   "webSlowdown": true,
-  "overallStatus": "maintenance",
+  "overallStatus": "operational",
   "generalStatus": {
-    "status": "maintenance",
+    "status": "operational",
     "message": "All Systems Operational"
   },
   "services": [
@@ -15,7 +15,7 @@
     {
       "id": "api",
       "name": "API Services",
-      "status": "maintenance"
+      "status": "operational"
     },
     {
       "id": "web",
@@ -25,7 +25,7 @@
     {
       "id": "app",
       "name": "App Services",
-      "status": "maintenance"
+      "status": "operational"
     },
     {
       "id": "download",
@@ -34,24 +34,8 @@
     }
   ],
   "incidents": [
-{
-      "id": 1,
-      "title": "App Services and API Services Maintenance",
-      "status": "ongoing",
-      "date": "2026-07-14",
-      "services": [
-        "App Services",
-        "API Services"
-      ],
-      "updates": [
-        {
-          "time": "21:30 UTC",
-          "message": "-"
-        }
-      ]
-    },
     {
-      "id": 2,
+      "id": 1,
       "title": "App Services Outage",
       "status": "resolved",
       "date": "2026-06-24",
@@ -66,7 +50,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "App Services Outage",
       "status": "resolved",
       "date": "2026-05-02",
@@ -81,7 +65,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Multiple Service Disruptions",
       "status": "resolved",
       "date": "2026-04-22",
@@ -100,7 +84,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Suspected DDoS Attack",
       "status": "resolved",
       "date": "2026-04-06",
@@ -117,7 +101,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Connection Issues After Recent Update",
       "status": "resolved",
       "date": "2026-01-26",
