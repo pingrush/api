@@ -1,36 +1,35 @@
 {
-  "connection": true,
-  "webSlowdown": true,
-  "overallStatus": "operational",
+  "connection": false,
+  "overallStatus": "offline",
   "generalStatus": {
-    "status": "operational",
-    "message": "All Systems Operational"
+    "status": "offline",
+    "message": "All Services Have Been Discontinued"
   },
   "services": [
     {
       "id": "auth",
       "name": "Authentication",
-      "status": "operational"
+      "status": "offline"
     },
     {
       "id": "api",
       "name": "API Services",
-      "status": "operational"
+      "status": "offline"
     },
     {
       "id": "web",
       "name": "Web Services",
-      "status": "operational"
+      "status": "offline"
     },
     {
       "id": "app",
       "name": "App Services",
-      "status": "operational"
+      "status": "offline"
     },
     {
       "id": "download",
       "name": "Download Services",
-      "status": "operational"
+      "status": "offline"
     }
   ],
   "incidents": [
